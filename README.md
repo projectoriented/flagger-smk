@@ -1,5 +1,6 @@
 # flagger.smk
-# Nov. 3, 2022
+## Nov. 3, 2022
+This is a Snakemake copy of [**WDL Flagger**](https://github.com/mobinasri/flagger).
 ## Step 1. Prereqs
 ```
 ln -s ./runlocal .
