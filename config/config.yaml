@@ -1,0 +1,14 @@
+hifi:
+  secphase_args: '-t10 -d1e-4 -e0.1 -b20 -m20 -s40'
+  mapping_args: 'map-pb'
+  max_divergence: 0.01
+  genotype_quality: 10
+
+ont:
+  secphase_args: '-t20 -d1e-2 -e0.1 -b20 -m10 -s20'
+  mapping_args: 'map-ont' # only accepting --ont_r9_guppy5_sup model at this moment
+  max_divergence: 0.12 # ONT-guppy 4
+  genotype_quality: 37
+
+flagger:
+  filter_alt_reads: '-m 1000 -r 0.4'
